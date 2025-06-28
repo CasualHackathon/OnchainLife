@@ -1,4 +1,4 @@
-# 🚀 EIP-7702 Casual Hackathon Project Demo Submission
+# 🚀 Onchain LifeHackathon Project Demo Submission
 
 <!--
 Please fill out the information below. This information will be automatically processed.

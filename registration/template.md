@@ -1,4 +1,4 @@
-# 🚀 EIP-7702 Casual Hackathon Registration
+# 🚀 Onchain LifeHackathon Registration
 
 <!--
 Please fill out the information below. This information will be automatically processed.
