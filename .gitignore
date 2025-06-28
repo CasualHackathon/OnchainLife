@@ -1,0 +1,11 @@
+.idea
+.idea/
+.idea/*
+.vscode
+node_modules
+.env
+.DS_Store
+out
+cache
+broadcast
+lib

@@ -1,0 +1,6 @@
+[submodule "docs/examples/gas-sponsorship/contracts/lib/forge-std"]
+	path = docs/examples/gas-sponsorship/contracts/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "submission/GasDaddy/contracts/lib/openzeppelin-contracts"]
+	path = submission/GasDaddy/contracts/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
