@@ -123,7 +123,7 @@ WeChat QR code
 
 ![WeChat](./images/WeChat.jpg)
 
-## 👥 Organizer
+## 🤝 Co-organizers
 
 <table>
     <tr>
@@ -132,16 +132,26 @@ WeChat QR code
                 <img src="./images/LXDAO.png" alt="LXDAO" width="130" />
             </a>
         </td>
+         <td align="center" valign="middle">
+            <a href="https://defihacklabs.io/" target="_blank">
+                <img src="./images/defihacklabs.png" alt="defihacklabs" width="130" />
+            </a>
+        </td>
     </tr>
 </table>
 
-## 🤝 Community Supports
+## 🌐 Community Support
 
 <table>
     <tr>
         <td align="center" valign="middle">
-            <a href="https://defihacklabs.io/" target="_blank">
-                <img src="./images/defihacklabs.png" alt="defihacklabs" width="130" />
+            <a href="https://learnblockchain.cn/" target="_blank">
+                <img src="./images/learnblockchain.png" alt="learnblockchain" width="130" />
+            </a>
+        </td>
+        <td align="center" valign="middle">
+            <a href="https://x.com/BUPT3DAO" target="_blank">
+                <img src="./images/bupt3.png" alt="bupt3" width="130" />
             </a>
         </td>
     </tr>
