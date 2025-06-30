@@ -111,14 +111,6 @@ Even if you don’t code, you can design an interface in Figma, write a proposal
 - Winning ideas may receive incubation opportunities and long-term support
 
 
-
-
-
-
-<!-- ## 📝 Register now
-
-visit the event homepage: https://github.com/CasualHackathon/OnchainLife -->
-
 ## 👥 Participants
 
 | Name | Role | Team Status | Project Name | Project Description | Contact |
