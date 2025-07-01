@@ -115,8 +115,7 @@ Even if you don’t code, you can design an interface in Figma, write a proposal
 
 | Name | Role | Team Status | Project Name | Project Description | Contact |
 |------|------|-------------|--------------|----------------------|---------|
-
-
+| [Keylen](./registration/Keylen.md) | Full-stack Developer | Looking for teammates | Daily Life DAO | 一个基于区块链的日常生活管理平台，让用户可以将生活习惯、目标达成等记录上链并获得激励 | keylen_blockchain (WeChat) |
 
 ## 💬 Join the discussion
 WeChat QR code
