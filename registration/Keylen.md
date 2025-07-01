@@ -9,7 +9,7 @@ Do not remove the --- markers or change the field names.
 
 ```yaml
 name: 'Keylen' # Your name or nickname
-description: '区块链开发者，专注于Web3生活应用，擅长DApp开发和智能合约设计，致力于让区块链技术融入日常生活' # Brief personal introduction including skills and experience (One sentence)
+description: '区块链开发者，专注于Web3生活应用，擅长DApp开发和智能合约设计，致力于让区块链技术融入日常生活。' # Brief personal introduction including skills and experience (One sentence)
 contact_method: 'WeChat' # Contact method: Telegram | WeChat | Discord | Email | X(Twitter) | GitHub
 contact: 'keylen_blockchain' # Your contact details, e.g., @username, email@example.com
 wallet_address: '0x1234567890abcdef1234567890abcdef12345678' # Your wallet address or ENS domain on Ethereum mainnet
