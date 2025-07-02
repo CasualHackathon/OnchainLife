@@ -8,7 +8,7 @@ Do not remove the --- markers or change the field names.
 ## 👤 Personal Information (required)
 
 ```yaml
-name: 'InviteNow' # Your name or nickname
+name: 'Tee' # Your name or nickname
 description: 'InviteNow, the first web3 C2C bounty invitation tasks platform.' # Brief personal introduction including skills and experience (One sentence)
 contact_method: 'WeChat' # Contact method: Telegram | WeChat | Discord | Email | X(Twitter) | GitHub
 contact: 'tee_tang' # Your contact details, e.g., @username, email@example.com
