@@ -68,7 +68,7 @@ LXDAO 致力于"让有价值的项目持续发生"。
 1. **如何注册**
 
    - Fork 这个仓库
-   - 在 [./registration](../registration/) 文件夹中，复制[注册模板](../registration/template.md)并创建一个名为 `[你的github-id].md` 的新文件
+   - 在 [./registration](./registration/) 文件夹中，复制[注册模板](./registration/template.md)并创建一个名为 `[你的github-id].md` 的新文件
    - 在 `[你的github-id].md` 中添加你的参与者详细信息（请不要编辑 `template.md`）
    - 提交 PR 一旦合并，你就正式注册了 🎉
 
@@ -82,7 +82,7 @@ LXDAO 致力于"让有价值的项目持续发生"。
 
    - 完成后，在演示日截止日期前提交包含你项目的 PR
    - 确保你的项目文件夹包含一个 `README.md`
-   - 将你的项目详细信息添加到 `README.md` 中，请遵循[提交模板](../submission/template.md)以保持一致性
+   - 将你的项目详细信息添加到 `README.md` 中，请遵循[提交模板](./submission/template.md)以保持一致性
 
 
 
