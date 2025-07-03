@@ -12,8 +12,8 @@
 
 | Event           | Time                  | Format    |
 | --------------- | --------------------- | --------- |
-| 🗓 **Open Day**  | July 4, 16:00 (UTC+8) | 📍 Online |
-| 🏁 **Demo Day** | July 6, 16:00 (UTC+8) | 📍 Online |
+| 🗓 **Open Day**  | July 11, 20:00 (UTC+8) | 📍 Online |
+| 🏁 **Demo Day** | July 13, 18:00 (UTC+8) | 📍 Online |
 
 ## 💬 Meeting Arrangement
 
