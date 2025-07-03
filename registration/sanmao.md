@@ -18,7 +18,7 @@ timezone: 'UTC+8' # Timezone, e.g., UTC+8, EST, PST (for team collaboration sche
 team_name: '三好' # Team name (if you have a team) or leave empty if looking for a team
 team_status: 'Looking for teammates' # Team status: Complete team formed | Looking for teammates | Open to join other teams | Solo participation
 project_name: '雕刻' # Project name (if you have an idea) or leave empty if undecided
-project_description: '记忆—时光系列：空间/VR照片分布式存储' # Brief description about your project in one sentence
+project_description: '记忆-时光系列：空间/VR照片分布式存储' # Brief description about your project in one sentence
 ```
 
 ## ℹ️ Additional Information
