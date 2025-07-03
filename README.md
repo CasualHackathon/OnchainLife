@@ -96,6 +96,7 @@ Even if you don’t code, you can design an interface in Figma, write a proposal
 | Name | Role | Team Status | Project Name | Project Description | Contact |
 |------|------|-------------|--------------|----------------------|---------|
 | [Bruce Xu](./registration/brucexu-eth.md) | Solidity Developer | Open to join other teams | SplitMate | SplitMate is a mobile-first app that lets friends settle shared bills in seconds using crypto — no s... | @brucexu_eth (Telegram) |
+| [叁毛](./registration/叁毛.md) |  Product Manager | Looking for teammates | 雕刻 | 记忆-时光系列：空间/VR照片分布式存储 | w3400065634 (WeChat) |
 | [Tee](./registration/Tunnelai.md) | Full-stack Developer | Looking for teammates |  | A web3 C2C bounty invitation tasks platform, a Telegram Web APP | tee_tang (WeChat) |
 | [Keylen](./registration/Keylen.md) | Full-stack Developer | Looking for teammates | Onchain family assets | An on - chain family asset hierarchical management application | Keylen3_14 (Telegram) |
 
