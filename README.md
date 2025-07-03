@@ -93,10 +93,11 @@ Even if you don’t code, you can design an interface in Figma, write a proposal
 
 ## 👥 Participants
 
-| Name                               | Role                 | Team Status           | Project Name          | Project Description                                             | Contact               |
-| ---------------------------------- | -------------------- | --------------------- | --------------------- | --------------------------------------------------------------- | --------------------- |
-| [Tee](./registration/Tunnelai.md)  | Full-stack Developer | Looking for teammates |                       | A web3 C2C bounty invitation tasks platform, a Telegram Web APP | tee_tang (WeChat)     |
-| [Keylen](./registration/Keylen.md) | Full-stack Developer | Looking for teammates | Onchain family assets | An on - chain family asset hierarchical management application  | Keylen3_14 (Telegram) |
+| Name | Role | Team Status | Project Name | Project Description | Contact |
+|------|------|-------------|--------------|----------------------|---------|
+| [Bruce Xu](./registration/brucexu-eth.md) | Solidity Developer | Open to join other teams | SplitMate | SplitMate is a mobile-first app that lets friends settle shared bills in seconds using crypto — no s... | @brucexu_eth (Telegram) |
+| [Tee](./registration/Tunnelai.md) | Full-stack Developer | Looking for teammates |  | A web3 C2C bounty invitation tasks platform, a Telegram Web APP | tee_tang (WeChat) |
+| [Keylen](./registration/Keylen.md) | Full-stack Developer | Looking for teammates | Onchain family assets | An on - chain family asset hierarchical management application | Keylen3_14 (Telegram) |
 
 ## 💬 Join the discussion
 
