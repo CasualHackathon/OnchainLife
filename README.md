@@ -138,11 +138,6 @@ WeChat QR code
             </a>
         </td>
         <td align="center" valign="middle">
-            <a href="https://x.com/BUPT3DAO" target="_blank">
-                <img src="./images/bupt3.png" alt="bupt3" width="130" />
-            </a>
-        </td>
-        <td align="center" valign="middle">
             <a href="https://seedao.xyz/" target="_blank">
                 <img src="./images/SEEDDAO.png" alt="SEEDDAO" width="130" />
             </a>
@@ -150,6 +145,11 @@ WeChat QR code
         <td align="center" valign="middle">
             <a href="https://openbuild.xyz/" target="_blank">
                 <img src="./images/OpenBuild.png" alt="OpenBuild" width="130" />
+            </a>
+        </td>
+        <td align="center" valign="middle">
+            <a href="https://x.com/BUPT3DAO" target="_blank">
+                <img src="./images/bupt3.png" alt="bupt3" width="130" />
             </a>
         </td>
         <td align="center" valign="middle">
