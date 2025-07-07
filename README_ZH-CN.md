@@ -119,10 +119,16 @@ LXDAO 致力于"让有价值的项目持续发生"。
                 <img src="./images/defihacklabs.png" alt="defihacklabs" width="130" />
             </a>
         </td>
+        <td  align="center" valign="middle">
+            <a href="https://ethpanda.org/" target="_blank">
+                <img src="./images/ETHPanda.png" alt="ETHPanda" width="130" />
+            </a>
+        </td>
     </tr>
 </table>
 
 ## 🌐 社区支持
+
 
 <table>
     <tr>
@@ -134,6 +140,21 @@ LXDAO 致力于"让有价值的项目持续发生"。
         <td align="center" valign="middle">
             <a href="https://x.com/BUPT3DAO" target="_blank">
                 <img src="./images/bupt3.png" alt="bupt3" width="130" />
+            </a>
+        </td>
+        <td align="center" valign="middle">
+            <a href="https://seedao.xyz/" target="_blank">
+                <img src="./images/SEEDDAO.png" alt="SEEDDAO" width="130" />
+            </a>
+        </td>
+        <td align="center" valign="middle">
+            <a href="https://openbuild.xyz/" target="_blank">
+                <img src="./images/OpenBuild.png" alt="OpenBuild" width="130" />
+            </a>
+        </td>
+        <td align="center" valign="middle">
+            <a href="https://x.com/THUBA_DAO/" target="_blank">
+                <img src="./images/thuba.png" alt="THUBA_DAO" width="130" />
             </a>
         </td>
     </tr>
