@@ -98,6 +98,7 @@ Even if you don’t code, you can design an interface in Figma, write a proposal
 | [Bruce Xu](./registration/brucexu-eth.md) | Solidity Developer | Open to join other teams | SplitMate | SplitMate is a mobile-first app that lets friends settle shared bills in seconds using crypto — no s... | @brucexu_eth (Telegram) |
 | [叁毛](./registration/叁毛.md) |  Product Manager | Looking for teammates | 雕刻 | 记忆-时光系列：空间/VR照片分布式存储 | w3400065634 (WeChat) |
 | [Tee](./registration/Tunnelai.md) | Full-stack Developer | Looking for teammates |  | A web3 C2C bounty invitation tasks platform, a Telegram Web APP | tee_tang (WeChat) |
+| [Brian Huang](./registration/Brian-Huang.md) | solidity developer, frontend developer | Looking for teammates | Grow | 這是一個鏈上表單平台，希望藉由區塊鏈保護隱私及資料安全，且希望藉由代幣獎勵提升表單填寫率及表單內容品質。 | @BrianHuang18 (X) |
 | [Keylen](./registration/Keylen.md) | Full-stack Developer | Looking for teammates | Onchain family assets | An on - chain family asset hierarchical management application | Keylen3_14 (Telegram) |
 
 ## 💬 Join the discussion
