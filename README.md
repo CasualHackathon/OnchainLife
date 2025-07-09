@@ -1,113 +1,116 @@
-# Onchain Life Casual Hackathon
+# Onchain Life 休闲黑客松
 
-[English](./README.md) | [简体中文](./README_ZH-CN.md)
+[English](./README_EN.md) | [简体中文](./README.md)
 
-🧬 The Future of Onchain Life Is Calling You!
+🧬 链上生活的未来在召唤你！
 
-**LXDAO presents ｜ Onchain Life: Casual Hackathon officially launches!**
+**LXDAO 呈现｜Onchain Life: 休闲黑客松正式启动！**
 
-## ⏰ Event Timeline
+## ⏰ 活动时间线
 
-📍 Online ｜ Relaxed participation ｜ Open to everyone
+📍 线上｜轻松参与｜向所有人开放
 
-| Event           | Time                  | Format    |
-| --------------- | --------------------- | --------- |
-| 🗓 **Open Day**  | July 11, 20:00 (UTC+8) | 📍 Online |
-| 🏁 **Demo Day** | July 13, 18:00 (UTC+8) | 📍 Online |
+| 活动 | 时间 | 形式 |
+|-------------|------|-----------------|
+| 🗓 **Open Day** | 7月11日，20:00 (UTC+8) | 📍 线上 |
+| 🏁 **Demo Day** | 7月13日，18:00 (UTC+8) | 📍 线上 |
 
-## 💬 Meeting Arrangement
+## 💬 会议安排
 
-| Event | Time | Link |
-| ----- | ---- | ---- |
+| 活动 | 时间 | 链接 |
+|-------------|------|-----------------|
 
-## 🌐 What is “Onchain Life”?
 
-When we moved finance onchain, DeFi was born.
+## 🌐 什么是"链上生活"？
 
-When we moved art onchain, NFTs emerged.
+当我们将金融搬到链上时，DeFi 诞生了。
 
-So, what happens when we move **life** onchain?
+当我们将艺术搬到链上时，NFT 出现了。
 
-This casual hackathon initiated by **LXDAO** aims to bring everyday imagination into the blockchain world, not for hype or headlines, but to sketch out drafts of the future.
+那么，当我们将**生活**搬到链上时会发生什么？
 
-## 💡 Why are we doing this?
+这个由 **LXDAO** 发起的休闲黑客松旨在将日常想象带入区块链世界，不是为了炒作或头条，而是为了勾勒未来的草图。
 
-Blockchain isn’t just a trading tool. It can become part of how we **live**.
+## 💡 我们为什么要做这件事？
 
-LXDAO is dedicated to "making valuable projects happen continuously."
+区块链不仅仅是一个交易工具。它可以成为我们**生活**方式的一部分。
 
-We believe that **onchain life scenarios** could become one of the most meaningful and imaginative frontiers in the next five years.
+LXDAO 致力于"让有价值的项目持续发生"。
 
-This summer, no business plans, no Web3 whitepapers, just one relaxed yet intentional hackathon to unlock a new narrative of life.
+我们相信**链上生活场景**可能成为未来五年最有意义和最富想象力的前沿之一。
 
-🛠️ **What kind of ideas are we looking for?** (but not limited to these)
+这个夏天，没有商业计划，没有 Web3 白皮书，只是一个轻松而有意图的黑客松，旨在开启生活的新叙事。
 
-- 🏡 Onchain Families: Marriage contracts, family DAOs, onchain kinship relations
-- 📜 Onchain Wills & Inheritance: Trustworthy custody and digital legacy mechanisms
-- 🐶 Onchain Pets & Identity Systems: Creating unique onchain identities for our furry friends
-- 💕 Onchain Love Life: Dating contracts, breakup insurance, couple treasury
-- 🧓 Life, Aging, Health & Death: Onchain health data, retirement DAOs, mutual aid for illness
-- 🛠️ Urban DAOs & Social Governance: How can local communities operate onchain?
-- 🧠 Bolder Ideas: Onchain college applications, rental credit scoring, blockchain memorial halls…
+🛠️ **我们在寻找什么样的想法？**（但不限于这些）
 
-This is a bold, relaxed, and non-grindy hackathon. You don’t need technical mastery—we welcome **cross-disciplinary creativity**.
+- 🏡 链上家庭：婚姻合约、家庭 DAO、链上亲属关系
+- 📜 链上遗嘱与继承：可信托管和数字遗产机制
+- 🐶 链上宠物与身份系统：为我们的毛茸茸朋友创建独特的链上身份
+- 💕 链上爱情生活：约会合约、分手保险、情侣金库
+- 🧓 生活、衰老、健康与死亡：链上健康数据、退休 DAO、疾病互助
+- 🛠️ 城市 DAO 和社会治理：本地社区如何在链上运作？
+- 🧠 更大胆的想法：链上大学申请、租房信用评分、区块链纪念馆...
+  
+这是一个大胆、轻松、不内卷的黑客松。你不需要技术精通——我们欢迎**跨学科的创意**。
 
-Even if you don’t code, you can design an interface in Figma, write a proposal, or make a demo video. What we want is **proof of concept + imagination**!
+即使你不编程，你也可以在 Figma 中设计界面、写提案或制作演示视频。我们想要的是**概念验证 + 想象力**！
 
-## ✍️ How to Participate
 
-1. **How to Register**
 
-   - Fork this repository
-   - In the [./registration](./registration/) folder, copy the [registration template](./registration/template.md) and create a new file named `[your-github-id].md`
-   - Add your participant details to `[your-github-id].md` (please do not edit `template.md`)
-   - Submit a PR — once merged, you're officially registered 🎉
+## ✍️ 如何参与
 
-2. **How to Build**
+1. **如何注册**
 
-   - Fork the repo and clone it locally
-   - Create a folder under `/submission` for your project
-   - Start building your magic within your project folder (please do not edit others' folder) 🧙‍♂️
+   - Fork 这个仓库
+   - 在 [./registration](./registration/) 文件夹中，复制[注册模板](./registration/template.md)并创建一个名为 `[你的github-id].md` 的新文件
+   - 在 `[你的github-id].md` 中添加你的参与者详细信息（请不要编辑 `template.md`）
+   - 提交 PR 一旦合并，你就正式注册了 🎉
 
-3. **How to Submit**
+2. **如何构建**
 
-   - When done, submit a PR with your project before the Demo day deadline
-   - Make sure your project folder includes a `README.md`
-   - Add your project details to the `README.md`, please follow the [submission template](./submission/template.md) for consistency
+   - Fork 仓库并在本地克隆
+   - 在 `/submission` 下为你的项目创建一个文件夹
+   - 在你的项目文件夹内开始构建你的项目（请不要编辑其他人的文件夹）🧙‍♂️
 
-## 👨‍💻 Who should join?
+3. **如何提交**
 
-- Developers / designers / curators curious about future lifestyles
-- DAO members who like brainstorming but want to build something concrete
-- Builders who want to create something different without being KPI-driven
-- Anyone who’s ever wondered: **Can blockchain reshape how we live?**
-- Newcomers and solo developers are welcome—we’ll have team-matching and brainstorming spaces!
+   - 完成后，在演示日截止日期前提交包含你项目的 PR
+   - 确保你的项目文件夹包含一个 `README.md`
+   - 将你的项目详细信息添加到 `README.md` 中，请遵循[提交模板](./submission/template.md)以保持一致性
 
-## 🎯 What do we offer?
 
-- Full-process support (idea walls, topic guidance, team matching)
-- Mentoring and feedback from LXDAO core members
-- A laid-back online atmosphere—no all-nighters needed to make something great
-- A casual hackathon where **everyone who shares and delivers gets rewarded**
-- Winning ideas may receive incubation opportunities and long-term support
 
-## 👥 Participants
+## 👨‍💻 谁可以加入？
 
-| Name | Role | Team Status | Project Name | Project Description | Contact |
-|------|------|-------------|--------------|----------------------|---------|
-| [Bruce Xu](./registration/brucexu-eth.md) | Solidity Developer | Open to join other teams | SplitMate | SplitMate is a mobile-first app that lets friends settle shared bills in seconds using crypto — no s... | @brucexu_eth (Telegram) |
+- 对未来生活方式感到好奇的开发者/设计师/策展人
+- 喜欢头脑风暴但想构建具体东西的 DAO 成员
+- 想创造不同东西而不受 KPI 驱动的建设者
+- 任何曾经想过的人：**区块链能重塑我们的生活方式吗？**
+- 欢迎新手和独立开发者——我们将有团队匹配和头脑风暴空间！
+
+
+
+## 🎯 我们提供什么？
+
+- 全流程支持（创意墙、主题指导、团队匹配）
+- LXDAO 核心成员的指导和反馈
+- 轻松的线上氛围，不需要熬通宵就能做出优秀的东西
+- 一个轻松的黑客松，**每个分享和交付的人都会得到奖励**
+- 获胜的想法可能会获得孵化机会和长期支持
+
+
+
+## 👥 参与者
+
+| 姓名 | 角色 | 团队状态 | 项目名称 | 项目描述 | 联系方式 |
+|------|------|----------|----------|----------|----------|
+| [Keylen](./registration/Keylen.md) | Full-stack Developer | Looking for teammates | Onchain family assets | An on - chain family asset hierarchical management application | Keylen3_14 (Telegram) |
 | [叁毛](./registration/叁毛.md) |  Product Manager | Looking for teammates | 雕刻 | 记忆-时光系列：空间/VR照片分布式存储 | w3400065634 (WeChat) |
+| [Bruce Xu](./registration/brucexu-eth.md) | Solidity Developer | Open to join other teams | SplitMate | SplitMate is a mobile-first app that lets friends settle shared bills in seconds using crypto — no s... | @brucexu_eth (Telegram) |
 | [Tee](./registration/Tunnelai.md) | Full-stack Developer | Looking for teammates |  | A web3 C2C bounty invitation tasks platform, a Telegram Web APP | tee_tang (WeChat) |
 | [Brian Huang](./registration/Brian-Huang.md) | solidity developer, frontend developer | Looking for teammates | Grow | 這是一個鏈上表單平台，希望藉由區塊鏈保護隱私及資料安全，且希望藉由代幣獎勵提升表單填寫率及表單內容品質。 | @BrianHuang18 (X) |
-| [Keylen](./registration/Keylen.md) | Full-stack Developer | Looking for teammates | Onchain family assets | An on - chain family asset hierarchical management application | Keylen3_14 (Telegram) |
 
-## 💬 Join the discussion
-
-WeChat QR code
-
-![WeChat](./images/WeChat.jpg)
-
-## 🤝 Co-organizers
+## 🤝 联合组织
 
 <table>
     <tr>
@@ -129,7 +132,8 @@ WeChat QR code
     </tr>
 </table>
 
-## 🌐 Community Support
+## 🌐 社区支持
+
 
 <table>
     <tr>
@@ -160,5 +164,3 @@ WeChat QR code
         </td>
     </tr>
 </table>
-
-_Last updated: 2025-07-01 15:53:27_

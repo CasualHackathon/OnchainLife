@@ -1,4 +1,4 @@
-name: Update Hackathon Information
+name: Update Hackathon Information & Sync README
 
 on:
   push:
@@ -6,21 +6,26 @@ on:
       - main
     paths:
       - 'registration/*.md'
+      - 'README.md'
   pull_request:
     branches:
       - main
     paths:
       - 'registration/*.md'
+      - 'README.md'
+  workflow_dispatch:  # 允许手动触发
 
 jobs:
-  update-hackathon:
-    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
+  update-and-sync:
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -30,24 +35,90 @@ jobs:
       - name: Install dependencies
         run: pip install pyyaml
 
-      - name: Debug modified or added files
+      - name: Check what files changed
+        id: check_files
         run: |
-          echo "Modified or added files:"
-          git diff --no-commit-id --name-only --diff-filter=AM -r HEAD -- 'demos/' 'registration/'
+          echo "Checking changed files..."
+          
+          # 检查是否有registration文件变化
+          if git diff --no-commit-id --name-only --diff-filter=AM HEAD~1 HEAD | grep -q "registration/.*\.md"; then
+            echo "registration_changed=true" >> $GITHUB_OUTPUT
+            echo "Registration files changed"
+          else
+            echo "registration_changed=false" >> $GITHUB_OUTPUT
+            echo "No registration file changes"
+          fi
+          
+          # 检查是否有README.md变化
+          if git diff --no-commit-id --name-only --diff-filter=AM HEAD~1 HEAD | grep -q "^README\.md$"; then
+            echo "readme_changed=true" >> $GITHUB_OUTPUT
+            echo "README.md changed"
+          else
+            echo "readme_changed=false" >> $GITHUB_OUTPUT
+            echo "README.md not changed"
+          fi
 
       - name: Update hackathon information
+        if: steps.check_files.outputs.registration_changed == 'true' || github.event_name == 'workflow_dispatch'
         run: |
-          python scripts/update_hackathon.py
+          echo "Updating hackathon participant information..."
+          python3 scripts/update_hackathon.py
+
+      - name: Copy README.md to README_ZH-CN.md
+        if: steps.check_files.outputs.readme_changed == 'true' || github.event_name == 'workflow_dispatch'
+        run: |
+          echo "Syncing README.md to README_ZH-CN.md..."
+          python3 scripts/update_hackathon.py --copy-only
+
+      - name: Check for any changes
+        id: check_changes
+        run: |
+          # 检查是否有任何文件变化
+          if git diff --quiet README.md README_EN.md README_ZH-CN.md; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes to commit"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected, will commit"
+            git status --porcelain
+          fi
 
       - name: Commit and push changes
+        if: steps.check_changes.outputs.has_changes == 'true'
         run: |
-          if git diff --quiet README.md; then
-            echo "No changes to files. Skipping commit."
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 添加所有相关文件
+          git add README.md README_EN.md README_ZH-CN.md
+          
+          # 生成提交信息
+          commit_msg="🤖 Auto-update: "
+          if [[ "${{ steps.check_files.outputs.registration_changed }}" == "true" ]]; then
+            commit_msg+="Update participant information"
+          fi
+          if [[ "${{ steps.check_files.outputs.readme_changed }}" == "true" ]]; then
+            if [[ "${{ steps.check_files.outputs.registration_changed }}" == "true" ]]; then
+              commit_msg+=" & "
+            fi
+            commit_msg+="Sync README to ZH-CN"
+          fi
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            commit_msg="🔄 Manual trigger: Update all documentation"
+          fi
+          
+          git commit -m "$commit_msg"
+          git pull --rebase origin main
+          git push
+
+      - name: Summary
+        run: |
+          echo "## 🎉 工作流执行总结"
+          echo "- 注册文件更新: ${{ steps.check_files.outputs.registration_changed }}"
+          echo "- README.md更新: ${{ steps.check_files.outputs.readme_changed }}"
+          echo "- 是否有变化: ${{ steps.check_changes.outputs.has_changes }}"
+          if [[ "${{ steps.check_changes.outputs.has_changes }}" == "true" ]]; then
+            echo "✅ 文档已成功更新并提交"
           else
-            git config --global user.name "github-actions[bot]"
-            git config --global user.email "github-actions[bot]@users.noreply.github.com"
-            git add README.md
-            git commit -m "Update hackathon information"
-            git pull --rebase origin main
-            git push
+            echo "ℹ️ 没有检测到需要更新的内容"
           fi
