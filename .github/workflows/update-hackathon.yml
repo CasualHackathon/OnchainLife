@@ -12,11 +12,11 @@ on:
       - main
     paths:
       - 'registration/*.md'
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:  # Allow manual trigger
 
 jobs:
   update-and-sync:
-    # 简化条件：push和手动触发时执行，PR时只进行检查
+    # Simplified condition: execute on push and manual trigger, check only on PR
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
     runs-on: ubuntu-latest
     permissions:
@@ -40,7 +40,7 @@ jobs:
         run: |
           echo "Checking changed files..."
           
-          # 检查是否有registration文件变化（优化检测逻辑）
+          # Check if registration files changed (optimized detection logic)
           if git diff --name-only HEAD~1 HEAD | grep -q "registration/.*\.md"; then
             echo "registration_changed=true" >> $GITHUB_OUTPUT
             echo "Registration files changed"
@@ -50,7 +50,7 @@ jobs:
             echo "No registration file changes"
           fi
           
-          # 检查是否有README.md变化
+          # Check if README.md changed
           if git diff --name-only HEAD~1 HEAD | grep -q "^README\.md$"; then
             echo "readme_changed=true" >> $GITHUB_OUTPUT
             echo "README.md changed"
@@ -59,7 +59,7 @@ jobs:
             echo "README.md not changed"
           fi
           
-          # 输出所有变化的文件用于调试
+          # Output all changed files for debugging
           echo "All changed files:"
           git diff --name-only HEAD~1 HEAD
 
@@ -78,7 +78,7 @@ jobs:
       - name: Check for any changes
         id: check_changes
         run: |
-          # 检查是否有任何文件变化
+          # Check if there are any file changes
           if git diff --quiet README.md README_EN.md README_ZH-CN.md; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
             echo "No changes to commit"
@@ -94,10 +94,10 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # 添加所有相关文件
+          # Add all related files
           git add README.md README_EN.md README_ZH-CN.md
           
-          # 生成提交信息
+          # Generate commit message
           commit_msg="🤖 Auto-update: "
           if [[ "${{ steps.check_files.outputs.registration_changed }}" == "true" ]]; then
             commit_msg+="Update participant information"
@@ -118,12 +118,12 @@ jobs:
 
       - name: Summary
         run: |
-          echo "## 🎉 工作流执行总结"
-          echo "- 注册文件更新: ${{ steps.check_files.outputs.registration_changed }}"
-          echo "- README.md更新: ${{ steps.check_files.outputs.readme_changed }}"
-          echo "- 是否有变化: ${{ steps.check_changes.outputs.has_changes }}"
+          echo "## 🎉 Workflow Execution Summary"
+          echo "- Registration files updated: ${{ steps.check_files.outputs.registration_changed }}"
+          echo "- README.md updated: ${{ steps.check_files.outputs.readme_changed }}"
+          echo "- Has changes: ${{ steps.check_changes.outputs.has_changes }}"
           if [[ "${{ steps.check_changes.outputs.has_changes }}" == "true" ]]; then
-            echo "✅ 文档已成功更新并提交"
+            echo "✅ Documentation has been successfully updated and committed"
           else
-            echo "ℹ️ 没有检测到需要更新的内容"
+            echo "ℹ️ No content detected that needs updating"
           fi
