@@ -96,6 +96,7 @@ Even if you don’t code, you can design an interface in Figma, write a proposal
 | Name | Role | Team Status | Project Name | Project Description | Contact |
 |------|------|-------------|--------------|----------------------|---------|
 | [Bruce Xu](./registration/brucexu-eth.md) | Solidity Developer | Open to join other teams | SplitMate | SplitMate is a mobile-first app that lets friends settle shared bills in seconds using crypto — no s... | @brucexu_eth (Telegram) |
+| [wayland](./registration/wayland.md) | Full-stack Developer | Looking for teammates | OatchChain | An online platform based on blockchain where users can make oaths, with the content of their oaths r... | evelive3 (WeChat) |
 | [叁毛](./registration/叁毛.md) |  Product Manager | Looking for teammates | 雕刻 | 记忆-时光系列：空间/VR照片分布式存储 | w3400065634 (WeChat) |
 | [Tee](./registration/Tunnelai.md) | Full-stack Developer | Looking for teammates |  | A web3 C2C bounty invitation tasks platform, a Telegram Web APP | tee_tang (WeChat) |
 | [Brian Huang](./registration/Brian-Huang.md) | solidity developer, frontend developer | Looking for teammates | Grow | 這是一個鏈上表單平台，希望藉由區塊鏈保護隱私及資料安全，且希望藉由代幣獎勵提升表單填寫率及表單內容品質。 | @BrianHuang18 (X) |
@@ -156,4 +157,4 @@ Even if you don’t code, you can design an interface in Figma, write a proposal
     </tr>
 </table>
 
-_Last updated: 2025-07-10 03:08:37_
+_Last updated: 2025-07-11 08:44:02_
