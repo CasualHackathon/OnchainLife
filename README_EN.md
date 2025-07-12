@@ -95,12 +95,13 @@ Even if you don’t code, you can design an interface in Figma, write a proposal
 
 | Name | Role | Team Status | Project Name | Project Description | Contact |
 |------|------|-------------|--------------|----------------------|---------|
+| [Keylen](./registration/Keylen.md) | Full-stack Developer | Looking for teammates | Onchain family assets | An on - chain family asset hierarchical management application | Keylen3_14 (Telegram) |
+| [叁毛](./registration/叁毛.md) |  Product Manager | Looking for teammates | 雕刻 | 记忆-时光系列：空间/VR照片分布式存储 | w3400065634 (WeChat) |
 | [Bruce Xu](./registration/brucexu-eth.md) | Solidity Developer | Open to join other teams | SplitMate | SplitMate is a mobile-first app that lets friends settle shared bills in seconds using crypto — no s... | @brucexu_eth (Telegram) |
 | [wayland](./registration/wayland.md) | Full-stack Developer | Looking for teammates | OatchChain | An online platform based on blockchain where users can make oaths, with the content of their oaths r... | evelive3 (WeChat) |
-| [叁毛](./registration/叁毛.md) |  Product Manager | Looking for teammates | 雕刻 | 记忆-时光系列：空间/VR照片分布式存储 | w3400065634 (WeChat) |
-| [Tee](./registration/Tunnelai.md) | Full-stack Developer | Looking for teammates |  | A web3 C2C bounty invitation tasks platform, a Telegram Web APP | tee_tang (WeChat) |
 | [Brian Huang](./registration/Brian-Huang.md) | solidity developer, frontend developer | Looking for teammates | Grow | 這是一個鏈上表單平台，希望藉由區塊鏈保護隱私及資料安全，且希望藉由代幣獎勵提升表單填寫率及表單內容品質。 | @BrianHuang18 (X) |
-| [Keylen](./registration/Keylen.md) | Full-stack Developer | Looking for teammates | Onchain family assets | An on - chain family asset hierarchical management application | Keylen3_14 (Telegram) |
+| [Tee](./registration/Tunnelai.md) | Full-stack Developer | Looking for teammates |  | A web3 C2C bounty invitation tasks platform, a Telegram Web APP | tee_tang (WeChat) |
+| [Xing Xu](./registration/barktalkai.md) | Backend Developer | Complete team formed  | barktalkai | BarkTalKAI is a quick-start tool dApp designed for novice dog owners. Its core feature leverages sma... | https://x.com/Barktalkai33477 (X(Twitter)) |
 | [Zaydon Tian](./registration/Zaydon.md) | Solidity Developer  | Complete team formed | dandelion | A decentralized task bounty platform committed to enabling transparent, efficient, and low-cost glob... | 2710386575@qq.com (zzd18683632568  (WeChat)) |
 
 ## 🤝 Co-organizers
@@ -157,4 +158,4 @@ Even if you don’t code, you can design an interface in Figma, write a proposal
     </tr>
 </table>
 
-_Last updated: 2025-07-11 08:44:02_
+_Last updated: 2025-07-12 00:36:59_
